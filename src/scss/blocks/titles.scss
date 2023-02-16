@@ -1,4 +1,9 @@
-h1{
+.title{
+    font-size: 1.7rem;
+    font-family: 'Sarala', sans-serif;
+}
+
+.home__title{
     display: flex;
     flex-direction: column;
 }
