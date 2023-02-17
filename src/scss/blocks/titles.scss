@@ -1,9 +1,21 @@
 .title{
-    font-size: 1.7rem;
-    font-family: 'Sarala', sans-serif;
+    font-size: 2.2rem;
+    font-family: 'montreal';
+    
 }
 
 .home__title{
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
+}
+
+.name{
+    font-size: 1.10rem;
+    font-family: 'clash-regular';
+}
+
+.color{
+    -webkit-text-stroke: 1px rgb(255, 114, 114);
+    color:transparent;
 }
