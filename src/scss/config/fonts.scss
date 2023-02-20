@@ -1,31 +1,36 @@
 //me gusta con los span coloreados
 @font-face {
     font-family: 'neutralface';
-    src: url('/assets/fonts/NeutralFace.otf')
+    src: url('/fonts/NeutralFace.otf')
 }
 
 @font-face {
     font-family: 'neutralface-bold';
-    src: url('/assets/fonts/NeutralFace-Bold.otf');
+    src: url('/fonts/NeutralFace-Bold.otf');
 }
 //idem
 @font-face {
     font-family: 'vercetti';
-    src: url('/assets/fonts/Vercetti-Regular.otf');
+    src: url('/fonts/Vercetti-Regular.otf');
 }
 
 //subtitulo y texto
 @font-face {
     font-family: 'clash-regular';
-    src: url('/assets/fonts/ClashDisplay-Regular.otf');
+    src: url('/fonts/ClashDisplay-Regular.otf');
 }
 //título
 @font-face {
     font-family: 'clash-semibold';
-    src: url('/assets/fonts/ClashDisplay-Semibold.otf');
+    src: url('/fonts/ClashDisplay-Semibold.otf');
 }
 //título nuevo
 @font-face {
     font-family: 'montreal';
-    src: url('/assets/fonts/NeueMontreal-Regular.otf');
+    src: url('/fonts/NeueMontreal-Regular.otf');
+}
+
+@font-face {
+    font-family: 'montrealbold';
+    src: url('/fonts/NeueMontreal-Bold.otf');
 }
