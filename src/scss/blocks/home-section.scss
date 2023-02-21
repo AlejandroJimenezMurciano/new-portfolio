@@ -1,0 +1,82 @@
+@use '../mixins/responsive.scss' as *;
+
+.home{
+    position: relative;
+    height: 100vh;
+    
+}
+
+.home-titles__container{
+    position:relative;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+.home__title{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 2.4rem;
+    font-family: 'sk';
+
+    &__container{
+       margin: 25px;
+    }
+
+    @include responsive (tablet) {
+        font-size: 4.5rem;
+    }
+
+    @include responsive (laptop) {
+        font-size: 4.5rem;
+    }
+
+    @include responsive (desktop) {
+        font-size: 5.5rem;
+    }
+
+};
+
+.name{
+    font-size: 1.10rem;
+    font-family: 'clash-regular';
+    margin-top: -30px;
+    
+    &__container{
+        margin-right: 25px;
+        margin-left: 25px;
+        margin-top: -15px;
+    }
+
+    @include responsive (tablet) {
+        font-size: 2rem;
+    }
+
+}
+
+.color{
+    font-family: 'montrealbold';
+    -webkit-text-stroke: 1.2px rgb(55, 0, 255);
+    color: transparent;
+}
+
+h3{
+    font-family: 'clash-regular';
+    font-size: 2.4rem;
+    margin-top: 5px;
+   border-radius: 50px;
+   border: 2px solid rgb(0, 0, 0);
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+.blue{
+    color:rgb(55, 0, 255);
+}
