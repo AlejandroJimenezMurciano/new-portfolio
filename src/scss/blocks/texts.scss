@@ -1,3 +1,17 @@
+@use '../mixins/responsive.scss' as *;
+
 p{
-    font-family: 'clash-regular';
+    font-family: 'montreal';
+    font-size: 1.25rem;
+    line-height: 1.7rem;
+
+    @include responsive (tablet) {
+        font-size: 2.7rem;
+        line-height: 3rem;
+    }
+
+    @include responsive (laptop) {
+       font-size: 1.7rem;
+       line-height: 2rem;
+    }
 }

@@ -1,15 +1,31 @@
 @use '../mixins/responsive.scss' as *;
 
 .about-me {
+
+   margin-top: 100px;
+
    &__flex{
       margin: 25px;
    }
 
    &__description{
       margin-top: -30px;
-      @include responsive (tablet) {
-         font-size: 2.7rem;
+   }
+
+   &__container{
+      @include responsive (laptop) {
+         margin-top: 100px;
+        
      }
    }
+
+   &__flex{
+      @include responsive (laptop) {
+         display: flex;
+         align-items: center;
+         flex-wrap: wrap;
+     }
+   }
+
 };
 

@@ -22,22 +22,22 @@
 
 .title{
     font-size: 2.4rem;
-    font-family: 'sk';
+    font-family: 'montreal';
 
     &__container{
        margin: 25px;
     }
 
     @include responsive (tablet) {
-        font-size: 4.5rem;
+        font-size: 3rem;
     }
 
     @include responsive (laptop) {
-        font-size: 4.5rem;
+        font-size: 4.2rem;
     }
 
     @include responsive (desktop) {
-        font-size: 5.5rem;
+        font-size: 5rem;
     }
 
 };
@@ -65,17 +65,8 @@
     color: transparent;
 }
 
-h3{
-    font-family: 'clash-regular';
-    font-size: 2.4rem;
-    margin-top: 5px;
-   border-radius: 50px;
-   border: 2px solid rgb(0, 0, 0);
-}
 
-p{
-    font-size: 1.2rem;
-}
+
 
 .blue{
     color:rgb(55, 0, 255);
